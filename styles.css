@@ -71,7 +71,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.8) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -149,13 +149,13 @@ a.social {
   transition: all .25s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(images/twitter_logo.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(images/linked_logo.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(images/github_logo.svg);
 }
 a.social:hover {
   opacity: 1;
