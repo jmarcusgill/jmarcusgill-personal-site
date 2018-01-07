@@ -23,6 +23,11 @@ a:hover {
 
 /* Section Styles */
 
+h2 {
+  border-bottom: 5px solid #f7f5f0;
+  text-align: center;
+}
+
 .main-nav {
   width: 100%;
   background: black;
@@ -49,7 +54,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: orangered;
 }
 
 header {
@@ -98,7 +103,7 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: khaki;
-  box-shadow: 10px 10px 10px khaki;
+  box-shadow: 10px 10px 10px orangered;
 }
 
 ul.skills {
@@ -109,14 +114,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: cadetblue;
+  background: #0499ff;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: firebrick;
+  background: grey;
 }
 
 .contact-info {
