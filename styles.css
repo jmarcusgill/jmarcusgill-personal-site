@@ -57,6 +57,12 @@ h2 {
   color: orangered;
 }
 
+.nav-container {
+  height: 80px;
+  width: 100%;
+  display: table;
+}
+
 header {
   text-align: center;
   background: url('https://c1.staticflickr.com/5/4079/4944197428_0b66944145_b.jpg') no-repeat top center ;
